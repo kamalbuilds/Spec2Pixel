@@ -1,0 +1,11 @@
+requests
+Pillow
+numpy
+diffusers
+tqdm
+ipython
+python-dotenv
+aiohttp
+pytest
+pytest-asyncio
+pytest-cov
