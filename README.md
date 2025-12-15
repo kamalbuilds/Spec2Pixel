@@ -1,13 +1,10 @@
 # 🚀 Spec2Pixel : Enhanced BRIA FIBO Pipeline
 
+<img width="893" height="487" alt="Screenshot 2025-12-16 at 4 49 45 AM" src="https://github.com/user-attachments/assets/c4cf1676-9384-416d-80c8-a3618540352b" />
+
 ## Automated JSON Refinement Pipeline for FIBO Hackathon
 
 This project demonstrates the power of BRIA's FIBO model through an **automated, auditable, multi-step image refinement pipeline** that leverages structured JSON prompts for deterministic, scalable workflows.
-
-### 🏆 Hackathon Categories
-- **Best JSON-Native or Agentic Workflow** (Primary)
-- **Best Controllability**
-- **Best Professional Tool**
 
 ## ✨ Key Features
 
@@ -28,6 +25,12 @@ This project demonstrates the power of BRIA's FIBO model through an **automated,
 - Refinement history tracking
 - Execution metrics and logging
 - Thread-safe batch operations
+
+### Categories
+- **Best JSON-Native or Agentic Workflow** (Primary)
+- **Best Controllability**
+- **Best Professional Tool**
+
 
 ## 🎯 What Makes This Special?
 
