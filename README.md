@@ -12,14 +12,14 @@ This project demonstrates the power of BRIA's FIBO model through an **automated,
 ## ✨ Key Features
 
 ### Core Capabilities
-- ✅ **Environment-based configuration** - Secure API token management
-- ✅ **Robust error handling** - Retry logic with exponential backoff
-- ✅ **Multi-step refinement chains** - Sequential prompt refinements
-- ✅ **Batch processing** - Concurrent processing of multiple prompts
-- ✅ **JSON diff visualization** - Track changes between refinements
-- ✅ **Parameter presets** - Quick configuration for common styles
-- ✅ **HDR/16-bit support** - Professional-grade color depth
-- ✅ **Comprehensive testing** - Unit tests with high coverage
+-  **Environment-based configuration** - Secure API token management
+-  **Robust error handling** - Retry logic with exponential backoff
+-  **Multi-step refinement chains** - Sequential prompt refinements
+-  **Batch processing** - Concurrent processing of multiple prompts
+-  **JSON diff visualization** - Track changes between refinements
+-  **Parameter presets** - Quick configuration for common styles
+-  **HDR/16-bit support** - Professional-grade color depth
+-  **Comprehensive testing** - Unit tests with high coverage
 
 ### Production Features
 - Asynchronous request handling
@@ -164,7 +164,7 @@ results = pipeline.batch_process(prompts)
 
 for i, result in enumerate(results):
     if result.success:
-        print(f"✅ Prompt {i+1}: {result.image_url}")
+        print(f" Prompt {i+1}: {result.image_url}")
 ```
 
 ### HDR/16-bit Generation
@@ -237,8 +237,8 @@ The project includes comprehensive unit tests:
 python test_pipeline.py
 
 # Expected output:
-# ✅ 25 tests passed
-# ✅ Coverage: 85%+
+#  25 tests passed
+#  Coverage: 85%+
 ```
 
 Test coverage includes:

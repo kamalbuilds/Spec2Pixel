@@ -543,7 +543,7 @@ def demo_simple_generation():
     })
 
     if result.success:
-        logger.info(f"✅ Image generated: {result.image_url}")
+        logger.info(f" Image generated: {result.image_url}")
         pipeline.save_results(result)
     else:
         logger.error(f"❌ Generation failed: {result.error}")
@@ -574,7 +574,7 @@ def demo_multi_step_refinement():
     result = pipeline.multi_step_refinement(initial_prompt, refinement_steps)
 
     if result.success:
-        logger.info(f"✅ Multi-step refinement complete: {result.image_url}")
+        logger.info(f" Multi-step refinement complete: {result.image_url}")
         logger.info(f"⏱️ Execution time: {result.execution_time:.2f}s")
 
         # Visualize history
@@ -613,7 +613,7 @@ def demo_batch_processing():
 
     for i, result in enumerate(results):
         if result.success:
-            logger.info(f"  ✅ Prompt {i+1}: {result.image_url}")
+            logger.info(f"   Prompt {i+1}: {result.image_url}")
             pipeline.save_results(result, f"output/batch_{i+1}")
         else:
             logger.error(f"  ❌ Prompt {i+1}: {result.error}")
@@ -637,7 +637,7 @@ def demo_hdr_generation():
     })
 
     if result.success:
-        logger.info(f"✅ HDR image generated: {result.image_url}")
+        logger.info(f" HDR image generated: {result.image_url}")
         logger.info(f"📊 Metadata: {result.metadata}")
         pipeline.save_results(result, "output/hdr")
     else:
@@ -670,7 +670,7 @@ def main():
     print("\n4️⃣ Demo: HDR/16-bit Generation")
     demo_hdr_generation()
 
-    print("\n✅ All demos complete! Check the output/ directory for results.")
+    print("\n All demos complete! Check the output/ directory for results.")
     print("📝 Logs saved to:", Config.LOG_FILE)
 
 if __name__ == "__main__":
